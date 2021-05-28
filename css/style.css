@@ -1,0 +1,395 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+.navbar {
+    overflow: hidden;
+    top: 0;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    box-shadow:  0 4px 2px -2px rgba(0,0,0,.2);
+} 
+.navbar a {
+    float: left;
+    color: #77a6f7;
+    text-align: center;
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 20px; 
+    line-height: 25px;
+    border-radius: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* width: 70px; */
+    transition: .5s;
+    white-space: nowrap;
+}
+.navbar a.logo {
+    font-size: 28px;
+    font-weight: bold;
+    width:auto;
+} 
+.navbar a:hover {
+    border-radius: 0px;
+    opacity: 0.5;
+}  
+.navbar-right {
+    float: right;
+}
+.navbar .button {
+    background-color: #77a6f7;
+    width: 90px;
+    border: none;
+    color: white;
+    transition: 1s;
+    box-shadow:  0 4px 2px -2px rgba(0,0,0,.2);
+    line-height: 25px;
+
+    float: left;
+    text-align: center;
+    font-size: 20px; 
+    line-height: 25px;
+    padding-top: 8px;
+    padding-bottom: 12px;
+    transition: 0.5s;
+    border-radius: 28px;
+}
+.navbar a.button:hover {
+    opacity: 0.5;
+    border-radius: 0px;
+}
+.navbar a.last_a {
+    padding-right: 50px;
+}
+.navbar a.active {
+    background-color: #77a6f7;
+    color: white;
+}
+
+.header {
+    background-color: #77a6f7;
+    text-align: center;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+    transition: .5s;
+    height: 300px;
+    padding-bottom: 40px;
+}
+.header h1 {
+    font-size: 40px;
+}
+.header p {
+    font-size: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content-container {
+    padding: 20px;
+    padding-top: 0px;
+    text-align: left;
+    color: #333;
+    width: 600px;
+    transition: .5s;
+}
+.content-container h1 {
+    color: #77a6f7;
+    font-size: 35px;
+}
+.content-container p {
+    font-size: 20px;
+}
+.content-container ul{
+    text-align: left;
+    padding-left: 18px;
+}
+.content-container li {
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+
+
+.content {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content img {
+    padding-top: 20px;
+    height: 350px;
+    width: 600px;
+    transition: .5s;
+    
+}
+.content img:hover {
+    height: 375px;
+}
+
+
+.bg-default {
+    background-color: #d3e3fc;
+}
+.no-margin {
+    margin: 0;
+    padding-left: 100px;
+    padding-right: 150px;
+}
+
+
+
+
+.no-margin_2 {
+    margin: 0;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+
+
+
+.image-container {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.input {
+    width: 325px;
+    
+    border-radius: 28px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+    border: none;
+    outline: none;
+    font-size: 20px;
+    height: 30px;
+    background-color: rgb(230, 230, 230);
+    padding-left: 15px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #333;
+}
+.icon {
+    width: 10px;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    height: 30px;
+    background-color: rgb(230, 230, 230);
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    color: #acacac;
+
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+
+    line-height: 20px;
+    
+}
+
+.input-field {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+}
+.input-container {
+    padding-top: 30px;
+    text-align: center;
+}
+.textarea {
+    width: 375px;
+    border-radius: 28px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    height: 150px;
+    background-color: rgb(230, 230, 230);
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #333;
+    resize: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.textarea-icon {
+    width: 10px;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    height: 150px;
+    background-color: #edf5e1;
+    padding-left: 20px;
+    padding-right: 5px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    color: #acacac;
+
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+
+    line-height: 20px;
+}
+
+.button {
+    /* background: linear-gradient(to right, #5cdb95 0%,mediumaquamarine 100%); */
+    background-color: #77a6f7;
+    width: 200px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    border-radius: 28px;
+    border: none;
+    outline: none;
+    color: white;
+    text-align: center;
+    transition: .5s;
+}
+.button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    border-radius: 0;
+}
+
+
+
+
+
+.top-button a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+    position: fixed;
+    width: 55px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 2%;
+    right: 1%;
+    background-color: lightgray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 12px;
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+.copyright {
+    /* background: linear-gradient(to right , #5cdb95 0% , mediumaquamarine 100%); */
+    background-color: #77a6f7;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 23px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact {
+    background-image: url("/img/wave.svg");
+    background-repeat: no-repeat;
+    line-height: 20px;
+
+    text-align: center;
+    height: fit-content;
+    color: white;
+    padding-top: 40px;
+    margin-bottom: 50px;
+    /* background-size: cover; */
+}
+.contact h1 {
+    font-size: 35px;
+}
+.contact p {
+    font-size: 20px;
+}
+
+
+.contact .content {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.contact img {
+    float: left;
+    padding-top: 30px;
+}
+.contact .container-contact {
+    float: right;
+}

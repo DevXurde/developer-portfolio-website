@@ -1,0 +1,30 @@
+
+
+@media (min-width:728px) and (max-width:1024px){
+    .content {
+        margin: 0px;
+        height: fit-content;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .content img {
+        display: none;
+    }
+    .content-container {
+        width: 700px;
+    }
+
+    .no-margin {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .no-margin_2 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .contact {
+        line-height: 20px;
+        background-size:cover;    
+    }
+}
